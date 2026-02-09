@@ -1,0 +1,31 @@
+@import "tailwindcss";
+*{
+    box-sizing: border-box;
+}
+
+:root[data-theme="light"] {
+  --bg: #f9fafb;
+  --card-bg: #ffffff;
+  --text: #111827;
+  --muted: #6b7280;
+  --border: #e5e7eb;
+  --primary: #000000;
+}
+
+:root[data-theme="dark"] {
+  --bg: #0f172a;
+  --card-bg: #020617;
+  --text: #f8fafc;
+  --muted: #94a3b8;
+  --border: #1e293b;
+  --primary: #ffffff;
+}
+
+
+
+.input {
+  @apply w-full rounded-md border border-(--border)
+  bg-transparent px-3 py-2 text-sm
+  text-[var(--text)]
+  focus:outline-none focus:ring-2 focus:ring-[var(--primary)];
+}
