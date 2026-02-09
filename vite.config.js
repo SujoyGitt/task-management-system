@@ -3,9 +3,7 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  plugins: [
-    react(),
-    tailwindcss(),
-  ],
-  base: "/task-management-system/",
+  plugins: [react(), tailwindcss()],
+  base: "/task-management-system/", // trailing slash here is important
 })
+
