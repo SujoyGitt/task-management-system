@@ -1,4 +1,4 @@
-import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import { HashRouter, Navigate, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Login from "./pages/Login";
 import { ContextProvider } from "./context/AuthContext";
@@ -39,7 +39,7 @@ function App() {
     <>
       <ContextProvider data={{ user, setUser }}>
        <TaskProvider>
-        <BrowserRouter>
+        <HashRouter>
           <Routes>
             <Route
               path="/"
@@ -62,7 +62,7 @@ function App() {
 
             <Route path="/profile" element={user ? <Profile /> : <Navigate to="/login" />} />
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
         </TaskProvider>
       </ContextProvider>
     </>
