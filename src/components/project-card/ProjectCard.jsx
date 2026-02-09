@@ -1,4 +1,3 @@
-import "./project-card.scss";
 
 const ProjectCard = ({
   title,
