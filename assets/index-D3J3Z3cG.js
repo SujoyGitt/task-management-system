@@ -70,7 +70,7 @@ Please change the parent <Route path="${T}"> to <Route path="${T==="/"?"*":`${T}
                 rounded-full px-4 py-1.5 text-xs font-medium
                 transition-all
                 ${s?"bg-[var(--primary)] text-[var(--bg)]":"border border-(--border) text-[var(--muted)] hover:text-[var(--text)] hover:bg-[var(--border)]/40"}
-              `,children:o==="Product Owner"?"PO":o},o)})})]})},$D="/task-management-system/assets/delete-icon-Cr-eZbTJ.png",bX=({id:e,tags:t,title:n,handleDelete:r,handleEdit:l,taskIndex:o,setActiveCard:s,selectedTags:f})=>{const[d,v]=b.useState(!1),[m,p]=b.useState(n),g=S=>f.some(O=>O===S),x=()=>{m.trim()&&(l(e,m),v(!1))};return C.jsxs("article",{draggable:!d,onDragStart:()=>s(o),onDragEnd:()=>s(null),className:`\r
+              `,children:o==="Product Owner"?"PO":o},o)})})]})},$D="/assets/delete-icon-Cr-eZbTJ.png",bX=({id:e,tags:t,title:n,handleDelete:r,handleEdit:l,taskIndex:o,setActiveCard:s,selectedTags:f})=>{const[d,v]=b.useState(!1),[m,p]=b.useState(n),g=S=>f.some(O=>O===S),x=()=>{m.trim()&&(l(e,m),v(!1))};return C.jsxs("article",{draggable:!d,onDragStart:()=>s(o),onDragEnd:()=>s(null),className:`\r
         rounded-lg border border-(--border)\r
         bg-(--bg)\r
         p-3\r
