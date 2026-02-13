@@ -1,4 +1,4 @@
-import { HashRouter, Navigate, Route, Routes } from "react-router-dom";
+import { BrowserRouter, HashRouter, Navigate, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Login from "./pages/Login";
 import { ContextProvider } from "./context/AuthContext";
@@ -41,25 +41,10 @@ function App() {
        <TaskProvider>
         <HashRouter>
           <Routes>
-            <Route
-              path="/"
-              element={user ? <Dashboard /> : <Navigate to="/login" />}
-            />
-            <Route
-              path="/login"
-              element={user ? <Navigate to="/tasks" /> : <Login />}
-            />
-
-            <Route
-              path="/projects"
-              element={user ? <Projects /> : <Navigate to="/login" />}
-            />
-
-            <Route
-              path="/tasks"
-              element={user ? <Tasks tasksdata={Tasksdata} setTasks={setTasksdata} /> : <Navigate to="/login" />}
-            />
-
+            <Route path="/" element={user ? <Dashboard /> : <Navigate to="/login" />}/>
+            <Route path="/login" element={user ? <Navigate to="/tasks" /> : <Login />}/>
+            <Route path="/projects" element={user ? <Projects /> : <Navigate to="/login" />}/>
+            <Route path="/tasks" element={user ? <Tasks tasksdata={Tasksdata} setTasks={setTasksdata} /> : <Navigate to="/login" />} />
             <Route path="/profile" element={user ? <Profile /> : <Navigate to="/login" />} />
           </Routes>
         </HashRouter>

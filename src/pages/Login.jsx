@@ -2,6 +2,7 @@ import {  useReducer, useState } from "react";
 import { useUserDetails } from "../context/AuthContext";
 import { Navigate, useNavigate } from "react-router-dom";
 import Toggle from "../components/Toggle";
+import myImage from "../assets/login-illustration.png";
 
 const initialState = {
   name: "",
@@ -140,10 +141,11 @@ const Login = () => {
       <div className="min-h-screen flex bg-(--bg) text-(--text)">
         <div className="hidden lg:flex w-1/2 items-center justify-center bg-(--card-bg)">
           <img
-            src="/src/assets/login-illustration.png"
+             src={myImage} 
             alt="Login Illustration"
             className="max-w-xl"
           />
+       
         </div>
 
         <div className="w-full lg:w-1/2 flex items-center justify-center">
