@@ -1,53 +1,134 @@
 📌 Task Management Dashboard
 
-A modern React-based task management system with authentication, CRUD operations, and a clean dashboard interface.
+A modern React-based Task Management System featuring authentication, role-based access control, full CRUD functionality, drag-and-drop support, and a clean, responsive dashboard UI.
 
 🚀 Live Demo
-🔗 https://sujoygitt.github.io/task-management-system/
+
+🔗 Live Preview:
+https://sujoygitt.github.io/task-management-system/
 
 📂 Repository
-🔗 https://github.com/SujoyGitt/task-management-system
+
+🔗 GitHub Repository:
+https://github.com/SujoyGitt/task-management-system
 
 ✨ Features
 
-🔐 Demo Authentication
-👤 Role-Based Access (Admin / User)
-📊 Dashboard Overview (Task Stats Cards)
-📋 Data Table
+🔐 Demo Authentication System
+
+👤 Role-Based Access Control (Admin / User)
+
+📊 Dashboard Overview
+
+Task statistics cards
+
+Summary insights
+
+📋 Advanced Data Table
 
 Search
+
 Filter
+
 Pagination
 
-➕ Add / Edit / Delete Tasks (CRUD)
-🌗 Dark / Light Mode
-⚡ Optimized React performance using hooks
+➕ Full CRUD Operations
+
+Add Task
+
+Edit Task
+
+Delete Task
+
+🔄 Drag and Drop Task Management
+
+🌗 Dark / Light Mode Toggle
+
+⚡ Optimized Performance
+
+React Hooks
+
+Context API
+
+Efficient state management
+
+💾 Authentication Persistence using Local Storage
 
 🛠 Tech Stack
 
 React.js
+
 Tailwind CSS
+
 React Router DOM
+
 Context API / useState
-JSON Server / Mock API
-Local Storage (for auth persistence)
+
+JSON Server (Mock API)
+
+Local Storage
 
 📸 Screenshots
-(Add screenshots here)
+🏠 Dashboard View
 
-📦 Installation
+📋 Task Table
 
-git clone https://github.com/your-username/task-management-system.git
+🌙 Dark Mode
+
+🔄 Drag and Drop
+
+📁 Create a screenshots folder in your project root and add the images there.
+
+📦 Installation & Setup
+# Clone the repository
+git clone https://github.com/SujoyGitt/task-management-system.git
+
+# Navigate to project folder
 cd task-management-system
+
+# Install dependencies
 npm install
+
+# Start development server
 npm start
 
-🎯 Purpose of the Project
+🔐 Demo Credentials
 
-This project was built to demonstrate real-world dashboard architecture including authentication, protected routes, reusable components, and scalable UI patterns.
+(Optional – Add if applicable)
+
+Admin
+
+Email: admin@example.com
+
+Password: 123456
+
+User
+
+Email: user@example.com
+
+Password: 123456
+
+🎯 Project Purpose
+
+This project was built to demonstrate:
+
+Real-world dashboard architecture
+
+Authentication & protected routes
+
+Role-based UI rendering
+
+Reusable component structure
+
+Scalable state management patterns
+
+Clean and modern UI/UX design
+
+It reflects practical frontend development skills aligned with production-level applications.
 
 👨‍💻 Author
 
 Sujoy Ghosal
 Frontend Developer
+
 📧 sujoy143656@gmail.com
