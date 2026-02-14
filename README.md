@@ -19,65 +19,43 @@ https://github.com/SujoyGitt/task-management-system
 👤 Role-Based Access Control (Admin / User)
 
 📊 Dashboard Overview
-
 Task statistics cards
-
 Summary insights
-
 📋 Advanced Data Table
-
 Search
-
 Filter
-
 Pagination
 
 ➕ Full CRUD Operations
 
 Add Task
-
 Edit Task
-
 Delete Task
 
 🔄 Drag and Drop Task Management
-
 🌗 Dark / Light Mode Toggle
-
 ⚡ Optimized Performance
 
 React Hooks
-
 Context API
-
 Efficient state management
-
 💾 Authentication Persistence using Local Storage
 
 🛠 Tech Stack
 
 React.js
-
 Tailwind CSS
-
 React Router DOM
-
 Context API / useState
-
 JSON Server (Mock API)
-
 Local Storage
 
 📸 Screenshots
+
 🏠 Dashboard View
-
 📋 Task Table
-
 🌙 Dark Mode
-
 🔄 Drag and Drop
-
-📁 Create a screenshots folder in your project root and add the images there.
 
 📦 Installation & Setup
 # Clone the repository
@@ -92,38 +70,17 @@ npm install
 # Start development server
 npm start
 
-🔐 Demo Credentials
 
-(Optional – Add if applicable)
-
-Admin
-
-Email: admin@example.com
-
-Password: 123456
-
-User
-
-Email: user@example.com
-
-Password: 123456
 
 🎯 Project Purpose
 
 This project was built to demonstrate:
-
 Real-world dashboard architecture
-
 Authentication & protected routes
-
 Role-based UI rendering
-
 Reusable component structure
-
 Scalable state management patterns
-
 Clean and modern UI/UX design
-
 It reflects practical frontend development skills aligned with production-level applications.
 
 👨‍💻 Author
